@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>API CLIMA - APLICACION</title>
+
+        <!--link bootstrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.css"/>
+
+        <!--CSS propio-->
+        <!-- <link rel="stylesheet" href="sytle.css"/> -->
+
+        <!-- JS Jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        
+    </head>  
+        <div class="container">
+            <div class="row text-center bg-dark text-white border-radius-3 p-5 mb-4">
+                <h1 class="display-1">Consulta el Clima</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <form id="my_form" action="">
+                                <div class="input-group">
+                                    <input class="form-control" placeholder="Ingrese nombre ciudad" type="text" name="ciudad_buscada" id="ciudad_buscada">
+                                    <button class="btn btn-primary" type="button" id="buscar_ciudad">Buscar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-body">
+                            
+                        </div>
+                        <div class="card-footer">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 mb-4 text-center">
+                    <img class="d-none d-md-block" src="https://s2station.blog/wp-content/uploads/2018/08/photo5172929641927780313-1024x682.jpg" width="560" height="350" alt="fondo de mi ciudad">
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.js"></script>
+        <script src="scripts.js"></script>  <!--Aca se hace la conexion con el script de javascript-->
+        </body>
+</html>
